@@ -3,7 +3,7 @@
 # 🚀 Frontend Engineer Take Home Test  
 Dashboard Application — Vue JS + TypeScript + Tailwind CSS
 
-Project ini merupakan hasil pengerjaan Take Home Test untuk posisi **Frontend Engineer**, dengan fokus pada pembuatan Dashboard yang interaktif, responsive, clean, dan sesuai instruksi asesmen.
+This project is the outcome of the Take Home Test for the position of **Frontend Engineer**, emphasizing the development of an interactive and clean Dashboard that adheres to the assessment instructions.
 
 <br/>
 
@@ -39,26 +39,26 @@ Project ini merupakan hasil pengerjaan Take Home Test untuk posisi **Frontend En
 
 ---
 
-## 📄 Fitur Utama
+## 📄 Main Features
 
 ### 🔐 1. Login Page
 - Input Email & Password
 - Dummy login validation:
   - **email:** `admin@example.com`
   - **password:** `admin123`
-- Redirect ke Dashboard jika sukses
-- Menampilkan error jika login gagal
-- Token disimpan menggunakan `localStorage`
+-- Redirect to Dashboard upon success
+- Display error if login fails
+- Token stored using `localStorage`
 
 ---
 
 ### 📊 2. Dashboard Page
 
 #### Header
-- Icon notifikasi
-- Foto profil
-- Tombol Logout
-- Modal konfirmasi logout
+- Notification Icon
+- Profile Photo
+- Logout
+- Confirmation Modal for Logout
 
 #### Sidebar Navigasi (Dummy)
 - Dashboard    
@@ -68,14 +68,14 @@ Project ini merupakan hasil pengerjaan Take Home Test untuk posisi **Frontend En
 - Users
 
 #### Summary Cards
-Menampilkan empat data statis:
+Displaying 4 static data:
 - Total Users  
 - Transaction  
 - Revenue  
 - Pending Issues  
 
 #### Data Table
-Kolom:
+Column:
 - ID
 - Category
 - Company
@@ -83,9 +83,9 @@ Kolom:
 - Price
 - Approved By
 
-Fitur:
+Features:
 - Sorting (ASC/DESC)
-- Searching (berdasarkan seluruh kolom)
+- Searching
 - Pagination
 - Filter Role
 
@@ -97,30 +97,30 @@ Fitur:
 ---
 
 ## 🗄️ Dummy Data
-Semua data (summary & tabel) menggunakan data statis.
+All data (summary & table) utilizes static data.
 
 ---
 
-## ⚙️ Cara Menjalankan Project
+## ⚙️ How to Run The Project
 
-### 1. Install Dependencies
+### 1. Install The Dependencies
 ```bash
 npm install
 ```
-### 2. Jalankan Project
+### 2. Run the Project
 ```bash
 npm run dev
 ```
-### 3. Akses pada browser
+### 3. Access to browser
 ```bash
 http://localhost:port
 ```
 ## 🔒 Authentication Logic
-Login valid jika:
+The login valid if:
 ```bash
 email === "admin@example.com" && password === "admin123"
 ```
-Token disimpan di localStorage dan dicek via router guard.
+The token is stored in localStorage and verified through the router guard.
 
 ## ✨ Author
 
