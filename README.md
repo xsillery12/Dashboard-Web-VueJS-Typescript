@@ -1,7 +1,7 @@
 <div align="center">
 
 # 🚀 Frontend Engineer Take Home Test  
-Dashboard Application — Vue 3 + TypeScript + Tailwind CSS
+Dashboard Application — Vue JS + TypeScript + Tailwind CSS
 
 Project ini merupakan hasil pengerjaan Take Home Test untuk posisi **Frontend Engineer**, dengan fokus pada pembuatan Dashboard yang interaktif, responsive, clean, dan sesuai instruksi asesmen.
 
