@@ -29,6 +29,7 @@ Project ini merupakan hasil pengerjaan Take Home Test untuk posisi **Frontend En
 ### **Utilities**
 - Vue Router
 - LocalStorage Authentication
+- Prettier Formating
 
 ---
 
